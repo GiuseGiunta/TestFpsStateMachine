@@ -15,10 +15,10 @@ public class GroundedState : StateMachineBehaviour
     {
         
 
-        //if(Input.GetKeyDown(KeyCode.LeftShift))
-        //{
-        //    Playermoving.GTK();
-        //}
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Playermoving.GTK();
+        }
        
     }
 
